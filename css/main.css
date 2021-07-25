@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.todo {
+    width: 1100px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+.todo__header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.todo__input {
+    width: 100%;
+    max-width: 256px;
+}
+
+.todo__list {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+}
+
+.todo__list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo__list li button {
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    background:tomato;
+    color: #fff;
+    cursor: pointer;
+}
